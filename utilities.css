@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.btn {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0.3rem 0.13rem;
+  font-weight: var(--medium);
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: var(--h2-font);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--title-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--title-color);
+  border-color: var(--title-color);
+  color: var(--primary-color);
+}
