@@ -354,7 +354,7 @@ section {
   font-weight: var(--medium);
   font-size: var(--h3-font);
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .projects .card-wrapper .card img {
