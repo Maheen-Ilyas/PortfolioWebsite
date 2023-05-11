@@ -24,13 +24,13 @@
             </div>
             <div>
               <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">skills</a>
-              <a href="#">Projects</a>
+              <a href="#about">About</a>
+              <a href="#skills">skills</a>
+              <a href="#projects">Projects</a>
             </div>
           </div>
           <div class="nav-right">
-            <a href="assets\Resume.pdf"
+            <a href="#contact"
               ><button class="btn btn-primary">Contact</button></a
             >
           </div>
@@ -59,7 +59,7 @@
       </div>
     </div>
     <!-- About Section -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container flex items-center">
         <div class="about-left">
           <img src="assets\Side-Profile.svg" alt="" srcset="" />
@@ -94,9 +94,9 @@
       </div>
     </section>
     <!-- Skills Section -->
-    <section class="skills items-center">
+    <section class="skills items-center" id="skills">
       <div class="container items-center">
-        <h2>Skills</h2>
+        <h2>Skill <span>Set</span></h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <!-- Card Section -->
@@ -157,16 +157,22 @@
         </div>
       </div>
     </section>
-    <section class="projects">
+    <!-- Project Section -->
+    <section class="projects" id="projects">
       <div class="container">
         <h2>My <span>Projects</span></h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
+      <!-- Card Section -->
       <div class="card-wrapper">
         <!-- Individual card -->
         <div class="card">
+          <!-- Card Overlay -->
           <div class="overlay">
-            <span>Category: </span> <a href="https://github.com/Maheen-Ilyas/Tic-Tac-Toe">App Development</a>
+            <span>Category: </span>
+            <a href="https://github.com/Maheen-Ilyas/Tic-Tac-Toe"
+              >App Development</a
+            >
           </div>
           <img src="assets/Tic-Tac-Toe.svg" alt="" srcset="" />
         </div>
@@ -194,7 +200,10 @@
         <!-- Individual card -->
         <div class="card">
           <div class="overlay">
-            <span>Category: </span> <a href="https://github.com/Maheen-Ilyas/PortfolioWebsite">Web Development</a>
+            <span>Category: </span>
+            <a href="https://github.com/Maheen-Ilyas/PortfolioWebsite"
+              >Web Development</a
+            >
           </div>
           <img src="assets/Website.svg" alt="" srcset="" />
         </div>
@@ -207,5 +216,68 @@
         </div>
       </div>
     </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact <span>Me</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <!-- Card Section -->
+        <div class="card-wrapper">
+          <!-- Individual Card -->
+          <div class="card">
+            <i class="ri-smartphone-fill"></i>
+            <h3>Call On</h3>
+            <h4>+91 96769 53326</h4>
+          </div>
+          <div class="card">
+            <i class="ri-at-fill"></i>
+            <h3>Email On</h3>
+            <h4>maheenilyas4@icloud.com</h4>
+          </div>
+        </div>
+        <form action="">
+          <div class="input-wrap">
+            <input type="text" placeholder="Name *" />
+            <input type="text" placeholder="Email *" />
+          </div>
+          <div class="input-wrap-2">
+            <input type="text" placeholder="Subject" />
+          </div>
+          <div class="input-wrap-3">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <button class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-logo">
+        <h2>Maheen <span>Ilyas</span></h2>
+      </div>
+      <div class="icons">
+        <a href="#"><i class="ri-global-fill"></i></a>
+        <a href="https://github.com/Maheen-Ilyas"
+          ><i class="ri-github-fill"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/maheen-ilyas-995582227"
+          ><i class="ri-linkedin-fill"></i
+        ></a>
+        <a href="https://www.instagram.com/maheenilyas__"
+          ><i class="ri-instagram-fill"></i
+        ></a>
+        <a href="https://twitter.com/mahilyas05"
+          ><i class="ri-twitter-fill"></i
+        ></a>
+      </div>
+      <div>
+        <p>Copyright &#169; 2023 All Rights Reserved</p>
+      </div>
+    </footer>
   </body>
 </html>
