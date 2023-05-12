@@ -220,20 +220,12 @@ section {
   color: var(--title-color);
   font-size: var(--h1-font);
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 8rem;
   line-height: 0.5;
 }
 
 .skills h2 span {
   color: var(--primary-color);
-}
-
-.skills p {
-  color: var(--text-color);
-  font-size: var(--h3-font);
-  font-weight: var(--medium);
-  margin-bottom: 8rem;
-  text-align: center;
 }
 
 .skills .card-wrapper {
